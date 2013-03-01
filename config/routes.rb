@@ -1,4 +1,7 @@
 FooFoo::Application.routes.draw do
+  resources :foo_models
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
